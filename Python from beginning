@@ -1,0 +1,380 @@
+# print("Hello World")
+
+# Addition In Python.
+# print("Addition")
+# number1 = input("Enter a number")
+# number2 = input("Enter another number")
+# total = int(number1) + int(number2)
+# print(total)
+
+# Multiplications in python.
+# print("Multiplication")
+# number1 = input("Enter a number")
+# number2 = input("Enter another number")
+# total = int(number1) * int(number2)
+# print(total)
+
+# Subtraction in python.
+# print("subtraction")
+# number1 = input("Enter a number")
+# number2 = input("Enter another number")
+# total = int(number1) - int(number2)
+# print(total)
+
+# Division in python.
+# print("division")
+# number1 = input(" Enter A Number")
+# number2 = input("Enter Another Number")
+# total = int(number1) / int(number2)
+# print(total)
+
+# Making a calculator using above algebric terms-->
+
+# import time
+
+# print("Addition")
+# number1 = input("Enter a number")
+# number2 = input("Enter another number")
+# total = int(number1) + int(number2)
+# print(total)
+# time.sleep(1)
+# repeat = input("Multiplication? y/n")
+# if repeat == "y":
+#     print("Multiplication")
+#     number1 = input("Enter a number")
+#     number2 = input("Enter another number")
+#     total = int(number1) * int(number2)
+#     print(total)
+#     time.sleep(1)
+# repeat = input("subtraction? y/n")
+# if repeat == "y":
+#     print("subtraction")
+#     number1 = input("Enter a number")
+#     number2 = input("Enter another number")
+#     total = int(number1) - int(number2)
+#     print(total)
+#     time.sleep(1)
+# repeat = input("division? y/n")
+# if repeat == "y":
+#     print("division")
+#     number1 = input(" Enter A Number")
+#     number2 = input("Enter Another Number")
+#     total = int(number1) / int(number2)
+#     print(total)
+#     time.sleep(1)
+# else:
+#     print("End Of Program")
+
+# Use of If and Else Function.
+
+# score = 90
+# if score < 50:
+#     print('c')
+# elif score < 80:
+#     print('b')
+# elif score > 85:
+#     print('a')
+
+# String Slicing 
+  
+# Word = "python programming"
+# print(Word [1:11])
+# print(Word[:5])
+
+# new_word = Word[:4] + Word[5:9]
+# print(new_word)
+
+# LISTS IN PYHTON
+# Using []
+# alphabets = ['a', 'b', 'c', 'd', 'e', 'f']
+# print(alphabets)
+# print(type(alphabets))
+
+# List Constructor
+# alphabets = list('Hello') !--> [will expand the word]
+# word = list('Hello')
+# print(word)
+# print(type(word))
+
+# alphabets = ['a', 'b', 'c', 'd', 'e', 'f']
+
+# Accessing values from list
+# print(alphabets[2])
+# print(alphabets[-2])
+
+# Slicing in list
+# print(alphabets[2:5])
+# print(alphabets[-2:-4])
+# print(alphabets[-5:-2])
+# print(alphabets[:4])
+# print(alphabets[1:])
+
+# Replacememt mechanism in Lists
+
+# alphabets[2:-2] = ['C', 'D', 'E']
+# print(alphabets)
+
+# Built In Operation In The Lists
+# 1. Lenth of the lists
+# print(len(alphabets ))
+
+# 2. Add an element at the end of the list
+# alphabets.append(15)
+# alphabets.append(14)
+# print(alphabets)
+
+# 3. inserting element at a certain position
+# alphabets.insert(1, '15')
+# print(alphabets)
+
+# 4. Add a list of elts at the end
+# alphabets.extend( ['g', 'h', 'i'] )
+# print(alphabets)
+
+# 5. Reverse a list
+# alphabets.reverse()
+# print(alphabets)
+
+# 6. Remove a value from the list
+# alphabets.remove('c')
+# alphabets.remove('d')
+# alphabets.remove('e')
+# print(alphabets)
+
+# 7. Remove the last element of the list -> pop()
+# alphabets.pop()
+# alphabets.pop()
+# print(alphabets)
+
+# Programming Abstractions
+
+# 1.Conditional Statements
+
+# num1 = 50
+# num2 = 44
+# if num1 < num2:
+#     print(num1, "is less then", num2)
+# else:
+#     print(num1, "is greater than", num2)
+
+# num = 5
+# if num > 3:
+#     print(num * 6)
+
+# from tkinter import 
+
+
+# gender ='d' 
+# age = 16
+
+# if gender == 'M' and age > 21:
+#     print('He can vote')
+# else: print('He cannot vote')
+
+# if gender == 'F' and age > 18:
+#     print('She can vote')
+# else: print('She cannot vote')
+
+# if gender !='F' or gender != 'M':
+#     print('ERROR! Please write correct values')
+
+# If we have to display only one value in voting system
+# if ( gender == 'm' or gender == 'M') and ( age >= 0 and age >= 21):
+#     print('He can Vote')
+# elif ( gender == 'm' or gender == 'M' ) and ( age >= 0 and age < 21 ):
+#     print('He cannot Vote')
+# elif ( gender == 'f' or gender == 'F' ) and ( age >= 0 and age >= 18 ):
+#     print('She can Vote')
+# elif ( gender == 'f' or gender == 'F' ) and ( age >= 0 and age < 18 ):
+#     print('She cannot Vote')
+# else:
+#     print('Please input the correct value of age or gender')
+
+# num = 105
+# while(num >= 7):
+#     print(num)
+#     num -= 7
+
+# Code to print sum of first N natural Number-->
+
+# n = int(input('Enter a Number: '))
+# sum = 0
+# while(n > 0):
+#     sum += n
+#     n = n - 1
+# print("The sum of first n natuarl number is", sum)    
+
+# Syntax for finding square root!
+# import math
+# print(math.sqrt(44))
+
+# LOOPS in python <-- Infinite loops-->
+# n = 10 
+# while (n > 5):
+#     count = n+1
+#     print(count)
+
+# <-- For in range loops-->
+# a = 50
+# for i in range(0, a+1, 2):
+#     print(i)
+
+# Iterating over a list
+
+# Email Slicer
+
+# email = input("Enter Your Email: ").strip()
+# username = email[:email.index("@")]
+# domain_name = email[email.index("@")+1:]
+# format_ = (f"usename:{username} and domain:'{domain_name}' ")
+# print(format_)
+
+
+# Bitwise operators
+
+# 1. Bitwise AND
+
+#  --> AND gate -> both conditions should always be true 
+# a  b  o/p
+# 0  0  0
+# 0  1  0
+# 1  0  1
+# 1  1  1
+
+# Bitwise AND
+# val1 = 5
+# val2 = 8
+# print('The Bitwise AND of', val1, 'and', val2, 'is: ', val1 & val2)
+
+# 5--> 0101  
+# 8--> 1000
+# o/p 0000  decimal value == 0
+
+# Bitwise OR
+# OR GATE -> Either of the condition should be True
+# a     b   o/p
+# 0     0   0  
+# 0     1   1
+# 1     0   1
+# 1     1   1
+
+# Bitwise OR
+# val3 = 11
+# val4 = 9
+# print('The Bitwise OR of',val3, 'and', val4, 'is: ',val3 | val4)
+
+# Binary (val3) --> 1011
+# Binary (val4) --> 1001
+#  o/p          --> 1011 --> decimal value == 11 
+
+# Bitwise NOT
+# val5 = 12
+# print('the bitwise NOT of', val5, 'is: ', ~val5)
+
+# binary (val5) --> 1100
+#                   NOT
+#                     --> -(binary + 1)
+#    12 + 1 = -13 always place a '-' sign before the decimal value
+# bianary of 13 --> 1101
+# 
+#    1100
+#       1
+#   (1101)  decimal --> -13  
+
+# num = 5.0056789
+# print("the number is :", num)
+# print("number is %1d" %(num)) --> %()d allows user to have differnet distances from the given string..
+
+# name = 'Python'
+# progg = "programming"
+# print(name, "is a beautiful", progg, "language")
+# print(f"{name} is a beautiful {progg}, language")
+
+
+# val1 = 5
+# val2 = 6
+# val3 = int(input())
+# if val3 > val2:
+#     print("Greater")
+# elif val3 == val2:
+#     print("equal")
+# else:
+#     print("Lesser")    
+
+# If and Else in Lists..
+# list1 = [1, 5, 18]
+# if 5 in list1:
+#     print("yes it is in list")
+# if 23 not in list1:
+#     print("it is not in the list")    
+
+# list1 = ["ani", "mni", "sni"]
+# for item in list1:
+#     print(item) 
+
+# format()
+# txt = "For only {:d} dollars!".format(0b11101)
+# print(txt)
+
+# import datetime
+# print(datetime.datetime.now())
+
+# date = datetime.datetime.now().strftime("%d")
+# month = datetime.datetime.now().strftime("%B")
+# year = datetime.datetime.now().strftime("%Y")
+
+# hours = datetime.datetime.now().strftime("%H")
+# minutes = datetime.datetime.now().strftime("%M")
+# seconds = datetime.datetime.now().strftime("%S")
+# am_pm = datetime.datetime.now().strftime("%p")
+# print(f"Today is {month} {date}th, {year} ; and time is {hours}:{minutes}:{seconds} {am_pm}")
+    
+
+# month_list = {1:"January", 2:"February", 3:"March", 4:"April", 5:"May", 6:"June", 7:"July", 8:"August", 9:"September", 10:"October", 11:"November", 12:"December"}
+# imp_month = int(input("Enter the month number: "))
+# print(month_list[imp_month])
+
+# import datetime
+# date = int(input("Enter date: "))
+# month = int(input("Enter month: "))
+# year = int(input("Enter year: "))
+# mydate = datetime.datetime(year, month, date).now()
+# print(mydate)
+
+# Loops -> Repetative Statements
+
+# range(a) -> range starts with 0 and (num -1)
+# 1. FOR LOOPS
+
+# for variable in range(10):
+#     print(variable, end="")
+# print("\n")    
+
+
+# Ques--> Find the sum of all positive number upto the user's input.
+# step = int(input("Enter the number: "))
+# sum = 0
+# for variable in range(step):
+#     if (variable % 2 == 0):
+#         sum += variable
+# print(sum)        
+
+# Multiple Email Slicer--> Project Work
+# print("\nwelcome")
+# print("\U0001f600")
+# i="yes"
+# while i=="yes":
+#     email = input("Enter Your Email: ").strip()
+#     username = email[:email.index("@")]
+#     domain = email[email.index("@")+1:]
+#     domain = domain.upper()
+#     print("username:",username)
+#     print("domain:",domain)
+#     print("\U0001F604")
+#     i=input("want to continue  (yes/no):")
+# if i=="no":
+#     print("Thank You")
+#     print("\U0001F636")
+# else:
+#     print("please enter a vallid responce")
+#     print("U0001F62A")
