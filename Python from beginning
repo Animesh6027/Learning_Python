@@ -378,3 +378,49 @@
 # else:
 #     print("please enter a vallid responce")
 #     print("U0001F62A")
+
+# MATH Methods
+import math
+# # 1. Ceil and floor
+# n = 2.5
+# print( math.ceil(n))
+# print(math.floor(n))
+
+# # 2. Factorial
+# n= int(input())
+# print(math.factorial(n))
+
+# 3. GCD--> Hghest Common Factor
+# n1=5
+# n2=2
+# print(math.gcd(n1,n2))
+
+# 4. Sin And Cosine Functions
+# a=30
+# print(math.sin(b))
+
+# 5. Log Functions.
+# a=10
+# print(math.log(a))
+# print(math.log10(a))
+
+# 6. Absolute Value
+# a=-10
+# print(math.fabs(a))
+
+Fibonacci Series
+# def fib_series(n: int):
+#     # Base Condition
+#     if n == 0:
+#         return 0
+#     elif n == 1:
+#         return 1
+#     else:
+#         return fib_series(n-1) + fib_series(n-2)
+
+# terms = int(input('enter the term - '))
+# if(terms < 0):
+#     print('Enter a +ve number')
+# else:
+#     for i in range(0, terms):
+#         print(fib_series(i), end=" ")
